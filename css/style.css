@@ -45,13 +45,14 @@ body {
 }
 
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #03040a;
+    --secondary-color: #ffffff;
+    --primary-color: #03040a;
 }
 
+
 .dark_mode {
-    --primary-color: #03040a;
-    --secondary-color: #ffffff;
+    --secondary-color: #03040a;
+    --primary-color: #ffffff;
 }
 
 .top {
@@ -221,7 +222,6 @@ span {
 #about {
     margin: 0 12%;
     padding-top: 7%;
-    /* background-image: url(/Images/web.png); */
 }
 
 .web {
@@ -334,7 +334,6 @@ body::before {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* backdrop-filter: blur(15px); */
     padding: 20px;
     text-align: center;
     align-items: center;

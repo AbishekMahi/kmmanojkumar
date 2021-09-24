@@ -40,7 +40,7 @@
                 <li><a href="index.html#works">Works</a></li>
                 <li><a href="index.html#connect">Contact</a></li>
             </ul>
-            <img src="Images/moon.png" id="daynight">
+            <img src="Images/sun.png" id="daynight">
         </nav>
 
         <!-- back to top button -->
@@ -189,13 +189,13 @@
                 <!-- <form method="post" name="contact_form" action="contact-form-handler.php"> -->
                 <form method="post" name="contact_form" action="mailto:maskmansongs@gmail.com">
                     <label for="name">Your Name</label>
-                    <input class="input-field" type="text" name="name" placeholder="Name" required><br>
+                    <input class="input-field" type="text" name="Name" placeholder="Your Name" required><br>
 
                     <label for="email">Email address</label>
-                    <input class="input-field" type="email" name="email" placeholder="your@domine.com" required><br>
+                    <input class="input-field" type="email" name="Email" placeholder="your@domine.com" required><br>
 
                     <label for="msg">Message</label>
-                    <textarea class="input-field" name="message" placeholder="Write your message here..." rows="5"
+                    <textarea class="input-field" name="Message" placeholder="Write your message here" rows="5"
                         required>
                     </textarea><br>
 
@@ -243,9 +243,9 @@
         daynight.onclick = function () {
             document.body.classList.toggle("dark_mode");
             if (document.body.classList.contains("dark_mode")) {
-                daynight.src = "Images/sun.png"
-            } else {
                 daynight.src = "Images/moon.png"
+            } else {
+                daynight.src = "Images/sun.png"
             }
         }
         //Back To Top:
