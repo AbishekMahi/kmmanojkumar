@@ -185,12 +185,13 @@
     #works::before{
         content: "";
         position: absolute;
-        top: 0;
+        top: 20rem;
         left: 0;
         width: 100%;
         height: 100%;
         background: linear-gradient(#f00,rgb(68, 0, 255));
         clip-path: circle(12% at right 40%);
+        z-index: -9;
     }
     body::before{
         content: "";
@@ -200,7 +201,8 @@
         width: 100%;
         height: 100%;
         background: linear-gradient(rgb(89, 0, 255),rgb(255, 0, 13));
-        clip-path: circle(20% at left 80%);
+        clip-path: circle(29% at left 80%);
+        z-index: -9;
     }
     /* #about::before{
         content: "";

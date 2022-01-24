@@ -191,7 +191,7 @@ span {
 
 .listen-btn {
     margin-top: 4%;
-    padding: 2% 3%;
+    padding: 2% 3.5%;
     font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
@@ -199,6 +199,7 @@ span {
     border: 0;
     border-radius: 12px;
     background-color: #DF1F2D;
+    transition: 300ms;
 }
 
 .listen-btn:hover {
@@ -250,7 +251,7 @@ p {
 
 h2 {
     font-size: 3.2rem;
-    margin-top: 1%;
+    margin: 3% 0;
     font-family: 'Roboto Condensed', sans-serif;
     color: #DF1F2D;
     text-align: center;
@@ -305,6 +306,7 @@ h2 span {
     height: 100%;
     background: linear-gradient(#f00, rgb(68, 0, 255));
     clip-path: circle(25% at right 70%);
+    z-index: -9;
 }
 
 body::before {
@@ -360,6 +362,7 @@ body::before {
     border: 0;
     border-radius: 20px;
     background-color: #DF1F2D;
+    transition: 300ms;
 }
 
 .listen:hover {
